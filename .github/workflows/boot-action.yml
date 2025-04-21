@@ -22,3 +22,21 @@ jobs:
         run : ./gradlew clean build --exclude-task test
       - name: Check build folder
         run: ls -l build/libs/
+# WAR 파일을 ZIP 파일로 묶기
+      - name: Package WAR into ZIP
+        run: |
+          mkdir -p package
+          cp build/libs/*-plain.war package/ROOT.war
+          zip -r spring-app.zip package/
+
+      # S3 자격증명 설정
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.S3_ACC_KEY }}
+          aws-secret-access-key: ${{ secrets.S3_SEC_KEY }}
+          aws-region: ${{ secrets.S3_REGION }}
+
+      # ZIP 파일을 S3에 업로드
+      - name: Upload to S3
+        run: aws s3 cp spring-app.zip s3://${{ secrets.S3_BUCKET_NAME }}/spring-app.zip

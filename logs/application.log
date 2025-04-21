@@ -91,3 +91,15 @@ This generated password is for development use only. Your security configuration
 2025-04-21T11:17:24.672+09:00 DEBUG 12380 --- [http-nio-8080-exec-1] c.o.ex01.controller.MemberController     : 받은 id ccc 
 2025-04-21T11:17:24.678+09:00  INFO 12380 --- [http-nio-8080-exec-4] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
 2025-04-21T11:17:24.743+09:00  INFO 12380 --- [http-nio-8080-exec-5] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:28:10.353+09:00  INFO 12380 --- [http-nio-8080-exec-8] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:28:10.369+09:00  INFO 12380 --- [http-nio-8080-exec-9] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:28:11.554+09:00  INFO 12380 --- [http-nio-8080-exec-3] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:28:11.557+09:00 DEBUG 12380 --- [http-nio-8080-exec-3] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:28:11.563+09:00  INFO 12380 --- [http-nio-8080-exec-1] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:28:11.568+09:00 DEBUG 12380 --- [http-nio-8080-exec-1] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:28:11.570+09:00  INFO 12380 --- [http-nio-8080-exec-4] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:28:11.756+09:00  INFO 12380 --- [http-nio-8080-exec-5] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:28:12.877+09:00  INFO 12380 --- [http-nio-8080-exec-7] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:28:12.882+09:00 DEBUG 12380 --- [http-nio-8080-exec-7] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:28:12.888+09:00  INFO 12380 --- [http-nio-8080-exec-7] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:28:12.891+09:00 DEBUG 12380 --- [http-nio-8080-exec-7] c.o.ex01.controller.MemberController     : 받은 id ccc 
