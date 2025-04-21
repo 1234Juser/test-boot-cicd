@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+
+env :
+  CODE_APP_NAME : my-codedeploy-test
+  CODE_GROUP_NAME : boot-group
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -41,3 +46,11 @@ jobs:
       # ZIP 파일을 S3에 업로드
       - name: Upload to S3
         run: aws s3 cp spring-app.zip s3://${{ secrets.S3_BUCKET_NAME }}/spring-app.zip
+      
+      # CodeDeploy 실행 (EC2에 배포)
+      - name: Deploy to EC2 using CodeDeploy
+        run: aws deploy create-deployment
+          --application-name "$CODE_APP_NAME"
+          --deployment-group-name "$CODE_GROUP_NAME"
+          --s3-location bucket=${{ secrets.S3_BUCKET_NAME }},key=spring-app.zip,bundleType=zip
+          --region ${{ secrets.S3_REGION }}

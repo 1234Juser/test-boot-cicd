@@ -24,7 +24,7 @@ public class MemberController {
 
     @GetMapping("/cicd")
     public ResponseEntity cicd(HttpServletRequest req){
-        return ResponseEntity.status(HttpStatus.OK).body(req.getLocalAddr());
+        return ResponseEntity.status(HttpStatus.OK).body("수정확인 : " + req.getLocalAddr());
     }
 
     @GetMapping("/")
