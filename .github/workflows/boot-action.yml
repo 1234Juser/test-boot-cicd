@@ -27,6 +27,7 @@ jobs:
         run: |
           mkdir -p package
           cp build/libs/*-plain.war package/ROOT.war
+          cp appspec.yml package/appspec.yml
           zip -r spring-app.zip package/
 
       # S3 자격증명 설정
