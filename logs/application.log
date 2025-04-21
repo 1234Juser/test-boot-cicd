@@ -1,0 +1,93 @@
+2025-04-21T11:16:26.439+09:00  INFO 12380 --- [restartedMain] com.ohgiraffers.ex01.Ex01Application     : Starting Ex01Application using Java 17.0.14 with PID 12380 (C:\myWs\14_restAPI\ex01\build\classes\java\main started by hi in C:\myWs\14_restAPI\ex01)
+2025-04-21T11:16:26.445+09:00 DEBUG 12380 --- [restartedMain] com.ohgiraffers.ex01.Ex01Application     : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-21T11:16:26.446+09:00  INFO 12380 --- [restartedMain] com.ohgiraffers.ex01.Ex01Application     : The following 1 profile is active: "dev"
+2025-04-21T11:16:26.498+09:00  INFO 12380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-21T11:16:26.499+09:00  INFO 12380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-21T11:16:27.464+09:00  INFO 12380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21T11:16:27.543+09:00  INFO 12380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2025-04-21T11:16:28.247+09:00  INFO 12380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-21T11:16:28.265+09:00  INFO 12380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-21T11:16:28.266+09:00  INFO 12380 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21T11:16:28.343+09:00  INFO 12380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-21T11:16:28.343+09:00  INFO 12380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1843 ms
+2025-04-21T11:16:28.594+09:00  INFO 12380 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21T11:16:28.701+09:00  INFO 12380 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-21T11:16:28.754+09:00  INFO 12380 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-21T11:16:29.235+09:00  INFO 12380 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21T11:16:29.282+09:00  INFO 12380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-21T11:16:29.517+09:00  INFO 12380 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f36b658
+2025-04-21T11:16:29.520+09:00  INFO 12380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-21T11:16:29.665+09:00  INFO 12380 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21T11:16:32.410+09:00  INFO 12380 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21T11:16:32.516+09:00  INFO 12380 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21T11:16:33.636+09:00  WARN 12380 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-21T11:16:33.657+09:00  WARN 12380 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9c15cdc5-d90e-4a2f-b513-8627fc78eaf6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-04-21T11:16:33.668+09:00  INFO 12380 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-04-21T11:16:34.268+09:00  INFO 12380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-21T11:16:34.309+09:00  INFO 12380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-21T11:16:34.317+09:00  INFO 12380 --- [restartedMain] com.ohgiraffers.ex01.Ex01Application     : Started Ex01Application in 8.515 seconds (process running for 11.222)
+2025-04-21T11:16:58.261+09:00  INFO 12380 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21T11:16:58.261+09:00  INFO 12380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-21T11:16:58.262+09:00  INFO 12380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-21T11:16:58.330+09:00  INFO 12380 --- [http-nio-8080-exec-1] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:16:58.399+09:00 DEBUG 12380 --- [http-nio-8080-exec-1] c.o.ex01.controller.MemberController     : insert : MemberDTO(username=ccc, password=ccc, role=user, fileName=null)
+2025-04-21T11:17:01.853+09:00  INFO 12380 --- [http-nio-8080-exec-2] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:01.896+09:00 DEBUG 12380 --- [http-nio-8080-exec-2] c.o.ex01.controller.MemberController     : login dto : MemberDTO(username=ccc, password=ccc, role=null, fileName=null)
+2025-04-21T11:17:02.758+09:00  INFO 12380 --- [http-nio-8080-exec-3] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:02.809+09:00  INFO 12380 --- [http-nio-8080-exec-4] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:03.903+09:00  INFO 12380 --- [http-nio-8080-exec-7] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODIyLCJleHAiOjE3NDUyMDM2MjJ9.3zHIcz1HFkSicyXtaa_lpmW9WJ9v9pjOPn6IRUljvYY
+2025-04-21T11:17:03.925+09:00 DEBUG 12380 --- [http-nio-8080-exec-7] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:03.934+09:00  INFO 12380 --- [http-nio-8080-exec-8] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODIyLCJleHAiOjE3NDUyMDM2MjJ9.3zHIcz1HFkSicyXtaa_lpmW9WJ9v9pjOPn6IRUljvYY
+2025-04-21T11:17:03.937+09:00 DEBUG 12380 --- [http-nio-8080-exec-8] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:03.937+09:00  INFO 12380 --- [http-nio-8080-exec-9] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:04.011+09:00  INFO 12380 --- [http-nio-8080-exec-10] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:05.506+09:00  INFO 12380 --- [http-nio-8080-exec-1] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODIyLCJleHAiOjE3NDUyMDM2MjJ9.3zHIcz1HFkSicyXtaa_lpmW9WJ9v9pjOPn6IRUljvYY
+2025-04-21T11:17:05.512+09:00 DEBUG 12380 --- [http-nio-8080-exec-1] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:05.523+09:00  INFO 12380 --- [http-nio-8080-exec-2] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODIyLCJleHAiOjE3NDUyMDM2MjJ9.3zHIcz1HFkSicyXtaa_lpmW9WJ9v9pjOPn6IRUljvYY
+2025-04-21T11:17:05.528+09:00 DEBUG 12380 --- [http-nio-8080-exec-2] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:09.501+09:00  INFO 12380 --- [http-nio-8080-exec-4] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODIyLCJleHAiOjE3NDUyMDM2MjJ9.3zHIcz1HFkSicyXtaa_lpmW9WJ9v9pjOPn6IRUljvYY
+2025-04-21T11:17:09.511+09:00 DEBUG 12380 --- [http-nio-8080-exec-4] c.o.ex01.controller.MemberController     : id ccc
+2025-04-21T11:17:09.511+09:00 DEBUG 12380 --- [http-nio-8080-exec-4] c.o.ex01.controller.MemberController     : dto MemberDTO(username=ccc, password=ddd, role=user, fileName=null)
+2025-04-21T11:17:09.640+09:00  INFO 12380 --- [http-nio-8080-exec-6] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODIyLCJleHAiOjE3NDUyMDM2MjJ9.3zHIcz1HFkSicyXtaa_lpmW9WJ9v9pjOPn6IRUljvYY
+2025-04-21T11:17:09.644+09:00 DEBUG 12380 --- [http-nio-8080-exec-6] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:09.652+09:00  INFO 12380 --- [http-nio-8080-exec-5] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODIyLCJleHAiOjE3NDUyMDM2MjJ9.3zHIcz1HFkSicyXtaa_lpmW9WJ9v9pjOPn6IRUljvYY
+2025-04-21T11:17:09.657+09:00 DEBUG 12380 --- [http-nio-8080-exec-5] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:09.659+09:00  INFO 12380 --- [http-nio-8080-exec-7] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:09.720+09:00  INFO 12380 --- [http-nio-8080-exec-8] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:15.151+09:00  INFO 12380 --- [http-nio-8080-exec-9] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:15.157+09:00 DEBUG 12380 --- [http-nio-8080-exec-9] c.o.ex01.controller.MemberController     : login dto : MemberDTO(username=ccc, password=ccc, role=null, fileName=null)
+2025-04-21T11:17:17.389+09:00  INFO 12380 --- [http-nio-8080-exec-10] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:17.395+09:00 DEBUG 12380 --- [http-nio-8080-exec-10] c.o.ex01.controller.MemberController     : login dto : MemberDTO(username=ccc, password=ddd, role=null, fileName=null)
+2025-04-21T11:17:18.641+09:00  INFO 12380 --- [http-nio-8080-exec-1] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:18.654+09:00  INFO 12380 --- [http-nio-8080-exec-1] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:20.007+09:00  INFO 12380 --- [http-nio-8080-exec-6] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:17:20.011+09:00 DEBUG 12380 --- [http-nio-8080-exec-6] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:20.019+09:00  INFO 12380 --- [http-nio-8080-exec-6] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:17:20.022+09:00 DEBUG 12380 --- [http-nio-8080-exec-6] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:20.032+09:00  INFO 12380 --- [http-nio-8080-exec-7] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:20.118+09:00  INFO 12380 --- [http-nio-8080-exec-8] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:20.759+09:00  INFO 12380 --- [http-nio-8080-exec-9] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:17:20.764+09:00 DEBUG 12380 --- [http-nio-8080-exec-9] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:20.771+09:00  INFO 12380 --- [http-nio-8080-exec-10] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:17:20.776+09:00 DEBUG 12380 --- [http-nio-8080-exec-10] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:24.545+09:00  INFO 12380 --- [http-nio-8080-exec-2] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:17:24.547+09:00 DEBUG 12380 --- [http-nio-8080-exec-2] c.o.ex01.controller.MemberController     : id ccc
+2025-04-21T11:17:24.547+09:00 DEBUG 12380 --- [http-nio-8080-exec-2] c.o.ex01.controller.MemberController     : dto MemberDTO(username=ccc, password=ccc, role=user, fileName=null)
+2025-04-21T11:17:24.658+09:00  INFO 12380 --- [http-nio-8080-exec-1] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:17:24.662+09:00 DEBUG 12380 --- [http-nio-8080-exec-1] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:24.668+09:00  INFO 12380 --- [http-nio-8080-exec-1] com.ohgiraffers.ex01.config.JwtFilter    : auth : Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImNjYyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ1MjAxODM3LCJleHAiOjE3NDUyMDM2Mzd9.7IHfTkF6uuw1310I2h5AhaqEsQu9TP5_lTlhyWpqfj8
+2025-04-21T11:17:24.672+09:00 DEBUG 12380 --- [http-nio-8080-exec-1] c.o.ex01.controller.MemberController     : 받은 id ccc 
+2025-04-21T11:17:24.678+09:00  INFO 12380 --- [http-nio-8080-exec-4] com.ohgiraffers.ex01.config.JwtFilter    : auth : null
+2025-04-21T11:17:24.743+09:00  INFO 12380 --- [http-nio-8080-exec-5] com.ohgiraffers.ex01.config.JwtFilter    : auth : null

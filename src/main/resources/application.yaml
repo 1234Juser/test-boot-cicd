@@ -1,0 +1,7 @@
+jwt:
+  secretKey : abcd-test-1234
+
+s3:
+  access-key : AKIAVY2PGUO25IU6W3M3
+  secret-key : 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
+  bucket : file-bucket-s3-jung
